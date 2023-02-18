@@ -1,4 +1,5 @@
 song = "";
+song2= "";
 scoreLeftWrist = 0;
 scoreRightWrist = 0;
 rightWristX = 0;
@@ -9,6 +10,7 @@ leftWristY = 0;
 
 function preload() {
     song = loadSound("music.mp3");
+    song2 = loadSound("music2.mp3");
 }
 
 function setup() {
